@@ -26,10 +26,10 @@ False_positives_constant_timeseries_R0.RData
 Ñ these data sets contains false positive rates from for different levels of genetic variation, plasticity and R0, for constant timeseries of 30 time points.
 
 4.Also contains :
- ÔFalse.positives.variable_timeseries_genvar.RDataÕ
-ÔFalse.positives.variable_timeseries_R0.RDataÕ
-ÔFalse.positives.variable_timeseries_plasticity.RdataÕ
-Ñ these data sets are false positive rates for different levels of genetic variation, plasticity , R0 for variable timeseries length.
+ False.positives.variable_timeseries_genvar.RData
+False.positives.variable_timeseries_R0.RData
+False.positives.variable_timeseries_plasticity.Rdata
+ these data sets are false positive rates for different levels of genetic variation, plasticity , R0 for variable timeseries length.
 
 
 
