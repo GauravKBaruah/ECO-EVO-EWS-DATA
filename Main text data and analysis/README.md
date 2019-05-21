@@ -5,7 +5,7 @@
 
 
 
-*In this folder there are R scripts and loads of simulation data for population collapse.*
+*In this folder there are other folders, R scripts and loads of simulation data for population collapse.*
 
 
 # DATASETS INCLUDED IN THIS FOLDER:
