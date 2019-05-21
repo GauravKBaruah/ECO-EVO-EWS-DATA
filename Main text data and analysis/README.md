@@ -26,7 +26,7 @@ Where /factor/ is genetic variation; plasticity, and reproduction.
  
 These data sets contains false positive rates from for different levels of genetic variation, plasticity and R0, for constant timeseries of 30 time points.
 
-4.Also contains :
+4. Also contains :
 **False.positives.variable_timeseries_genvar.RData** ,
 **False.positives.variable_timeseries_R0.RData**,
 **False.positives.variable_timeseries_plasticity.Rdata**
