@@ -36,22 +36,22 @@ These data sets contains false positive rates from for different levels of genet
 
 # R SCRIPTS INCLUDED IN THIS FOLDER :
 
-1. *Functions_J_A_Ecology.R*  is the R script that has majority of the functions needed for EWS analysis. Specifically modified EWS code, trait-based EWS code etc.
+1. **Functions_J_A_Ecology.R**  is the R script that has majority of the functions needed for EWS analysis. Specifically modified EWS code, trait-based EWS code etc.
 
-2. *01_Abundance-based-ews-script-analysis.R*  is the R script that is used for abundance-based EWSs .
+2. **01_Abundance-based-ews-script-analysis.R**  is the R script that is used for abundance-based EWSs .
 
-3. *02_trait-based-ews-script-analysis.R*  is the R script for trait-based EWSs analysis.
+3. **02_trait-based-ews-script-analysis.R**  is the R script for trait-based EWSs analysis.
 
-4. *03_Effective_Potential_and_return_timeplot.R* the R script that plots the potential curve and return times.
+4. **03_Effective_Potential_and_return_timeplot.R** the R script that plots the potential curve and return times.
 
-5. *04_plotting_False_positives_with_surrogate_timeseries.R*  plots rate of false positives
+5. **04_plotting_False_positives_with_surrogate_timeseries.R**  plots rate of false positives
 
-6. *S1_Trait_Abundance_EWS_variable_timeseries_script_analysis.R*  abundance and trait-based EWS analysis for variable time series length.
+6. **S1_Trait_Abundance_EWS_variable_timeseries_script_analysis.R**  abundance and trait-based EWS analysis for variable time series length.
 
-7. *S2_False_positives_surogateseries_variable_timeseries_length_analysis.R* for analysing and creating surrogate timeseries and estimating rate of false positives.
+7. **S2_False_positives_surogateseries_variable_timeseries_length_analysis.R** for analysing and creating surrogate timeseries and estimating rate of false positives.
 
 
-8. *S3_False_positives_surogateseries_constant_timeseries_length-main-text_analysis.R* this scripts is for generating false positive rates from surrogate timeseries for the main-text,
+8. **S3_False_positives_surogateseries_constant_timeseries_length-main-text_analysis.R** this scripts is for generating false positive rates from surrogate timeseries for the main-text,
 
 
 
