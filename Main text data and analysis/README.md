@@ -1,4 +1,4 @@
-**PLEASE email : gaurav.baruah@ieu.uzh.ch/ piyushgkb@gmail.com if any errors occur !**
+**PLEASE email : gaurav.baruah@ieu.uzh.ch/ piyushgkb@gmail.com if you find any errors !**
 
 *THERE ARE README.md FILES IN EACH OF THE FOLDERS. PLEASE GO THROUGH THEM TOO WHEN LOOKING AT THE DATA AND THE SCRIPTS.*
 
