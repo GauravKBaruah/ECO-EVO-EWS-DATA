@@ -20,15 +20,16 @@ Where /factor/ is genetic variation; plasticity, and reproduction.
 
 
 3. This folder also contains false positive data created by the method of Dakos et al 2012. Particularly,
-False_positives_constant_timeseries_genvar.RData
-False_positives_constant_timeseries_plasticity.RData
-False_positives_constant_timeseries_R0.RData
-Ñ these data sets contains false positive rates from for different levels of genetic variation, plasticity and R0, for constant timeseries of 30 time points.
+**False_positives_constant_timeseries_genvar.RData** ,
+**False_positives_constant_timeseries_plasticity.RData**,
+**False_positives_constant_timeseries_R0.RData**,
+ 
+These data sets contains false positive rates from for different levels of genetic variation, plasticity and R0, for constant timeseries of 30 time points.
 
 4.Also contains :
- False.positives.variable_timeseries_genvar.RData
-False.positives.variable_timeseries_R0.RData
-False.positives.variable_timeseries_plasticity.Rdata
+**False.positives.variable_timeseries_genvar.RData** ,
+**False.positives.variable_timeseries_R0.RData**,
+**False.positives.variable_timeseries_plasticity.Rdata**
  these data sets are false positive rates for different levels of genetic variation, plasticity , R0 for variable timeseries length.
 
 
