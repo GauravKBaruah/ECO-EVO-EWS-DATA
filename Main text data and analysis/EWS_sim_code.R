@@ -103,7 +103,7 @@ require(MASS)
 
 start.mean.breed=0
 reps<-100 #no. of replicate simulation
-EWS.residualnoise.plasticity.0.5<-lapply(1:reps, mc.replica,tmax=800,noise.resids=0.5,
+EWS.plasticity.0.5<-lapply(1:reps, mc.replica,tmax=800,noise.resids=0,
                              omega=20,beta=0.5,var.size=0.25,rho=1,var.U=1.25^2,
                              var.Theta=1.25^2,r0=1.2,mean.breed=start.mean.breed)
 
