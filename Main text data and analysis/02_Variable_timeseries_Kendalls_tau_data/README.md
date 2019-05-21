@@ -1,0 +1,1 @@
+**In this folder there are three R scripts  for variable time series data.**Make sure when you run the scripts, there are sourced R scripts from other folders , and they need to be provided with the correct directory path.1. *Ôplotting_abundance-trait-ews-variable-timelengths.RÕ* is for plotting abundance and trait-based EWS alongside for variable time series length.
