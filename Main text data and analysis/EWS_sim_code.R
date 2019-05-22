@@ -102,9 +102,9 @@ require(MASS)
 #######################STARTING PARAMETERS##############
 
 start.mean.breed=0
-reps<-100 #no. of replicate simulation
-EWS.plasticity.0.5<-lapply(1:reps, mc.replica,tmax=800,noise.resids=0,
-                             omega=20,beta=0.5,var.size=0.25,rho=1,var.U=1.25^2,
+reps<-20 #no. of replicate simulation
+EWS.genetic.extinction.0.05<-lapply(1:reps, mc.replica,tmax=900,noise.resids=0,
+                             omega=20,beta=0.2,var.size=0.05,rho=1,var.U=1.25^2,
                              var.Theta=1.25^2,r0=1.2,mean.breed=start.mean.breed)
 
 

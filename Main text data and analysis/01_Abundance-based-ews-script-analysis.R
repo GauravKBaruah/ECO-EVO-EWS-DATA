@@ -8,6 +8,7 @@ library("earlywarnings")
 require(grid)
 require(gridExtra)
 require(ggplot2)
+#please check where the below function script is located 
 source('~/Dropbox/Zurich PhD Research/2_Chapter_2/J Animal Ecology codes/Functions_J_A_Ecology.R')
 
 
@@ -535,37 +536,35 @@ abline(v=530,col='red',lwd=2,lty=2);abline(v=500,col='steelblue',lwd=2,lty=2)
 
 
 
-################### Recovery time ####
+################### population extinction figure S2 ####
 
 rm(list=ls())
-load("Genetic.var_0.05.recovery.RData")
-load("Genetic.var.0.5_recovery.RData") #low plasticity low genvariation
-
-first.op<- EWS.trait.recovery.genvar.0.05
-second.op<-EWS.trait.recovery.genvar.0.5
+load("Extinction_genetic_variation_0.05.RData")
+load("Extinction_genetic_variation_0.5.RData") #low plasticity low genvariation
+ls()
+first.op<- EWS.genetic.extinction.0.05
+second.op<-EWS.genetic.extinction.0.5
 library("earlywarnings")
-source('~/Dropbox/Zurich PhD Research/Trait Dyanamics chapter 1/rolling_GAMs_methods.R', echo=TRUE)
+source('~/Dropbox/Zurich PhD Research/2_Chapter_2/J Animal Ecology codes/Functions_J_A_Ecology.R')
 
 # Lamdba vales for evolving gentic var
-t.recover<-function(N){
-  
-  
-  lowN<-numeric(); lowN<-min(N)
-  K_max<-max(N[505:1000])
-  t.rec<-match(K_max,N[501:1000])
-  t.min<-match(lowN,N); time.rec<-t.rec+505-t.min
-  return(time.rec)
-}
 
-t.recovery<-matrix(NA,ncol=2,nrow=100)
+par(mfrow=c(1,2))
+r2 = grDevices::colors()[grep('gr(a|e)y', grDevices::colors(), invert = T)]
+t<-seq(1,900)
+plot(0,0,xlim = c(200,900),ylim = c(0,80),type = "n",xlab="Time",ylab = "Population size",main = "genetic variation = 0.05")
 
-for (i in 1:100){
-  
-  t.recovery[i,1]<-t.recover(first.op[[i]]$N)
-  t.recovery[i,2]<-t.recover(second.op[[i]]$N)
+for (i in 1:20){
+  lines(t[200:900],first.op[[i]]$N[200:900],col=r2[i])
   
 }
 
-pdf("Genetic-variation-rescue.pdf")
-boxplot(t.recovery, ylab="Time to recover to carrying capacity",names=c("Genetic variation=0.05", "Genetic variation =0.5"), col=c("grey","white"))
-dev.off()
+
+plot(0,0,xlim = c(200,900),ylim = c(0,80),type = "n",xlab="Time",ylab = "Population size",main = "genetic variation = 0.5")
+
+  for (i in 1:20){
+    lines(t[200:900],second.op[[i]]$N[200:900],col=r2[i])
+    
+  }
+  # lines(t,fifth.op[[i]]$N,col=r3[i])
+  
