@@ -176,7 +176,7 @@ multiplot(fp.gc,fp.P,fp.R, cols = 2)
 
 R0=1.2; K=73; k=log(K);omega=20; del=0 ; # del here signifies no evolutionary lag
 r =log(R0);
-
+sigma<-c(0,0.001,0.02,0.08,0.2,0.4,0.6, 1)
 beta  = log(sqrt(omega)/(sqrt(omega+sigma)))  
 gamma = del/(R0*(omega+sigma))
 
